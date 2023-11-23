@@ -1,0 +1,34 @@
+
+        # Makefile for automating project tasks
+
+        # Set up the virtual environment
+        venv:
+            python -m venv venv
+            # Add commands to activate the virtual environment based on the OS
+
+        # Install dependencies
+        install:
+            pip install -r requirements.txt
+
+        # Create project directories
+        dirs:
+            python github_project_setup.py --setup-directories
+
+        # Set up README.md
+        readme:
+            python github_project_setup.py --setup-readme
+
+        # Configure GitHub repository
+        repo:
+            python github_project_setup.py --setup-repo
+
+        # Create GitHub issues and perform commits
+        tickets:
+            python github_project_setup.py --create-tickets
+
+            # Perform commits and push changes
+            git add .
+            git commit -m "Complete GitHub issues setup"
+            git push
+
+        
