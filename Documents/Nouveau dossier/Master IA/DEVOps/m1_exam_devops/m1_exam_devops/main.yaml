@@ -1,37 +1,36 @@
 
-    name: Tracer les courbes
+name: Tracer les courbes
 
-    on:
-    push:
-        branches:
-        - main
+on:
+push:
+    branches:
+    - main
 
-    jobs:
-    build:
-        runs-on: ubuntu-latest
+jobs:
+build:
+    runs-on: ubuntu-latest
 
-        steps:
-        - name: Checkout du code
-            uses: actions/checkout@v2
+    steps:
+    - name: Checkout du code
+        uses: actions/checkout@v2
 
-        - name: Configurer Python
-            uses: actions/setup-python@v2
-            with:
-            python-version: 3.8
+    - name: Configurer Python
+        uses: actions/setup-python@v2
+        with:
+        python-version: 3.8
 
-        - name: Installer les dépendances
-            run: |
-            python -m pip install --upgrade pip
-            pip install matplotlib
+    - name: Installer les dépendances
+        run: |
+        python -m pip install --upgrade pip
+        pip install matplotlib
 
-        - name: Exécuter le script x_squared
-            run: python main.py x_squared
+    - name: Exécuter le script x_squared
+        run: python main.py x_squared
 
-        - name: Exécuter le script x_cubed
-            run: python main.py x_cubed
+    - name: Exécuter le script x_cubed
+        run: python main.py x_cubed
 
-        - name: Déclencher les actions
-            run: |
-            python main.py trigger_workflow
+    - name: Déclencher les actions
+        run: |
+        python main.py trigger_workflow
 
-        
