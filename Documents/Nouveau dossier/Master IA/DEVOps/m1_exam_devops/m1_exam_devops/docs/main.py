@@ -458,7 +458,7 @@ if __name__ == "__main__":
     main()
     # Remplacez ces valeurs par les informations appropriées
     username = "CarelBrian"
-    access_token = "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"
+    access_token = "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"
     repo_name = "m1_exam_devops"
     target_directory = "m1_exam_devops"
 
