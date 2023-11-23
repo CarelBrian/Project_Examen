@@ -1,0 +1,33 @@
+
+# Fichiers temporaires
+*.log
+*.swp
+*.tmp
+
+# Répertoires générés
+_pycache_/
+venv/
+node_modules/
+
+# Fichiers de configuration spécifiques à l'utilisateur
+.DS_Store
+Thumbs.db
+
+# Fichiers d'environnement
+.env
+.env.local
+
+# Fichiers de sortie ou de build
+/build/
+/dist/
+/out/
+
+# Fichiers de dépendances Python
+*.pyc
+*.pyo
+
+# Fichiers spécifiques à certains éditeurs ou IDE
+.vscode/
+.idea/
+.sublime-
+
