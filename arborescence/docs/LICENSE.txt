@@ -1,0 +1,26 @@
+
+        MIT License
+
+        Droit d'auteur (c) 2023 Carel Brian MOUSSE
+
+        La permission est par la présente accordée, gratuitement, à toute personne obtenant une copie
+        de ce logiciel et des fichiers de documentation associés (le "Logiciel"), d'utiliser le Logiciel
+        sans restriction, notamment les droits d'utiliser, de copier, de modifier, de fusionner, de publier,
+        de distribuer, de sous-licencier et/ou de vendre des copies du Logiciel, ainsi que d'autoriser
+        les personnes à qui le Logiciel est fourni à en faire de même, sous réserve des conditions suivantes :
+
+        [Ici, vous pouvez ajouter des termes et conditions spécifiques de la licence, tels que :]
+
+        - Il n'est pas autorisé d'utiliser ce logiciel à des fins commerciales sans la permission écrite explicite de l'auteur.
+        - Vous devez attribuer l'auteur original dans toute œuvre dérivée basée sur ce logiciel.
+        - Toutes les modifications apportées au logiciel doivent être clairement documentées et indiquées dans le code source.
+        - Ce logiciel est fourni "tel quel", et l'auteur n'assume aucune responsabilité pour les dommages ou les responsabilités résultant de son utilisation.
+
+        LE LOGICIEL EST FOURNI "TEL QUEL", SANS GARANTIE D'AUCUNE SORTE, EXPRESSE OU IMPLICITE,
+        NOTAMMENT SANS GARANTIE DE QUALITÉ MARCHANDE, D'ADÉQUATION À UN USAGE PARTICULIER ET D'ABSENCE
+        DE CONTREFAÇON. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DU DROIT D'AUTEUR NE SERONT
+        RESPONSABLES DES RÉCLAMATIONS, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS UNE ACTION
+        EN CONTRAT, UN DÉLIT OU AUTRE, DÉCOULANT DE, OU EN LIEN AVEC LE LOGICIEL OU SON UTILISATION
+        OU D'AUTRES RELATIONS DANS LE LOGICIEL.
+
+        
