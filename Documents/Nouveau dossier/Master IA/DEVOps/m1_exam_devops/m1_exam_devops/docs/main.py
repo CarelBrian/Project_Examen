@@ -73,6 +73,8 @@ def create_file(path, content=""):
 # Fonction pour effectuer un commit Git
 def git_commit(directory, message):
     subprocess.run(["git", "add", "."], cwd=directory)
+    # Afficher l'état du dépôt avant de commettre
+    subprocess.run(["git", "status"], cwd=directory)
     subprocess.run(["git", "commit", "-m", message], cwd=directory)
 
 
