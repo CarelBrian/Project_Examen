@@ -1,0 +1,9 @@
+
+        # Liste des dépendances du projet
+        
+        numpy
+        pandas
+        matplotlib
+        scikit-learn
+
+        
