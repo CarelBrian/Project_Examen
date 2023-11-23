@@ -6,6 +6,7 @@ import requests
 import os
 import sys
 import shutil
+import textwrap
 
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
@@ -68,7 +69,7 @@ def create_directory(path):
 # Fonction pour créer un fichier
 def create_file(path, content=""):
     with open(path, "w") as f:
-        f.write(content)
+        f.write(textwrap.dedent(content))
 
 # Fonction pour effectuer un commit Git
 def git_commit(directory, message):
