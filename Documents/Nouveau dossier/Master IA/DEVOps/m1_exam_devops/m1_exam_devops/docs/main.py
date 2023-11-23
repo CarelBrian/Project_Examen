@@ -71,6 +71,16 @@ def create_file(path, content=""):
     with open(path, "w") as f:
         f.write(textwrap.dedent(content))
 
+# Initialiser les repertoires
+def git_init(directory):
+    subprocess.run(["git", "init"], cwd=directory)
+
+# Fonction pour configurer les dossiers du projet
+def setup_directories(target_directory):
+    create_directory(target_directory)
+    create_directory(os.path.join(target_directory, "docs"))
+    git_init(target_directory)
+
 # Fonction pour effectuer un commit Git
 def git_commit(directory, message):
     subprocess.run(["git", "add", "."], cwd=directory)
@@ -82,11 +92,6 @@ def git_commit(directory, message):
 # Fonction pour effectuer un push Git
 def git_push(directory, branch="main"):
     subprocess.run(["git", "push", "origin", branch], cwd=directory)
-
-# Fonction pour configurer les dossiers du projet
-def setup_directories(target_directory):
-    create_directory(target_directory)
-    create_directory(os.path.join(target_directory, "docs"))
 
 
 # Fonction pour configurer le fichier README.md
